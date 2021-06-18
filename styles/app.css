@@ -1,0 +1,98 @@
+body {
+    background-color: #747274;
+}
+
+main {
+    display: flex;
+}
+
+#list {
+    flex: 2;
+}
+
+#list h3 {
+    text-align: center;
+}
+
+#details {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+    border-radius: 6px;
+}
+
+#details h3 {
+    text-align: center;
+}
+
+.icon-important {
+    font-size: 24px;
+}
+
+button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.hide {
+    display: none;
+}
+
+/*****************
+    List Style
+*****************/
+.task-list {
+    padding-right: 10px;
+}
+
+.task {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+
+.task .sec-1 {
+    font-size: 18px;
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: #747274;
+}
+
+.task #iDelete {
+    color: #484349;
+    float: right;
+}
+
+.task #iDelete:hover {
+    color: #FF1654;
+}
+
+.task .sec-2 {
+    display: flex;
+}
+
+.task .sec-title {
+    flex: 5;
+    color: #201E1F;
+}
+
+.task .sec-title h5 {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.task .sec-title p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.task .sec-date {
+    flex: 2;
+    text-align: center;
+}
+
+.task .sec-location {
+    flex: 3;
+}
